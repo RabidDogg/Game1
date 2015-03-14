@@ -50,10 +50,10 @@ public class Field extends JPanel {
 		g.drawImage(cap, x, 480, null);
 		
 		if (x > RBorder){
-			x = RBorder;
+			x = LBorder;
 		}
 		if (x < LBorder){
-			x = LBorder;
+			x = RBorder;
 		}
 		
 		
